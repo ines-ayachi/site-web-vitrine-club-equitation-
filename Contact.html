@@ -1,0 +1,242 @@
+<html>
+ <html lang="fr">
+             
+  <head> 
+   <title > Projet NOU </title>
+   <meta charset="utf-8" />
+   <meta name="keywords" content="équitation,Formation,cheval,NOU,professionnels,amateurs,FFE,éducation" />
+   <meta name="description" content="NOU est un centre de formation équestre, fondé sur la relation Homme-cheval.">
+   <link rel="stylesheet" href="../CSS/style1.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+   </script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+   </script>
+  
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  </head> 
+
+  <body>
+    <div class="container">
+
+      <!--<h1 id="haut" class="aa"> Notre CLUB D'EQUITATION </h1>-->
+
+   <header>
+      <div class="header" id="myHeader">
+      <img class="NOUlogo" src="../Media/03.jpg" alt="NOU">
+        <p>Site réalisé par Ghada Ben Miled et Ayachi Ines </p>
+     
+     </div>
+       <a class="btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      
+      <div class="menu">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul id="menu-main-nav" class="navbar-nav nav-fill w-100 mr-auto">
+      <li class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-1 active">
+        
+        <a id="meni-item-1" class="nav-link menu-item-type-post_type menu-item-object-page menu-item-1" href="../HTML/Acceuil.html">Acceuil <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a id="menu-item-5" class="nav-link disabled  menu-item-type-post_type menu-item-object-page menu-item-5" href="../HTML/Actualites.html">Actualité</a>
+      </li>      <li class="nav-item dropdown">
+        <a id="menu-item-3" class="nav-link dropdown-toggle  menu-item-type-post_type menu-item-object-page menu-item-3" href="../HTML/Nous rejoindre.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Nous Rejoindre
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../HTML/Tarifs.html">Tarifs</a>
+          <a class="dropdown-item" href="../HTML/Formation.html">Formations</a>
+        </div>
+      </li>
+      
+      <li  class="nav-item">
+        <a id="menu-item-2" class="nav-link  menu-item-type-post_type menu-item-object-page menu-item-2" href="../HTML/Contact.html">contact</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a id="menu-item-5" class="nav-link dropdown-toggle  menu-item-type-post_type menu-item-object-page menu-item-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Inscription
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item  current_page_item  active" href="../HTML/entreneur.html">Entreneur<span class="sr-only"></span></a>
+          <a class="dropdown-item" href="../HTML/joueur.html">joueur</a>
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
+      
+    </ul>
+    
+  </div>
+  </div>
+</nav>
+</div>
+<script type="text/javascript">
+  $(".btn").on("click",function()
+  {
+    $('.menu').toggleclass("show");
+  }
+  )
+</script>
+   
+
+  <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+  </body>
+
+  <fieldset class="form">
+    <form  name="f3" action="mailto:ghadabenmiled@yahoo.fr" method="get" enctype="text/plain">
+     <legend class="team2">Nous contacter</legend> 
+      <div>
+          <p> <label class="team4" for="Nom">Votre Nom :</label> <input type="text" name="Nom" id="prenom" placeholder="votre Nom" autofocus  required /></p>
+        <p> <label class="team4" for="prenom">Votre prénom :</label> <input type="text" name="prenom" id="prenom" placeholder="votre prénom" autofocus required  /></p>
+        <p> <label class="team4" for="telephone">Votre telephone :</label> <input type="text" name="telephone" id="telephone" placeholder="votre telephone(si c'est paossible" autofocus required  /></p>
+        <p> <label class="team4" for="e-mail">Votre e-mail :</label> <input type="text" name="e-mail" id="e-mail" placeholder="votre e-mail" autofocus required  /></p>
+         
+        <textarea placeholder="Exprimez vous ...">
+          
+        </textarea>
+
+
+        <input type="submit" value="Envoyer" onclick="
+          alert('votre mail a été envoyé , nous vous recontacterons dans les plus brefs délais sur'+document.f3.e-mail.value)"/>
+
+  </div>
+  </form>
+</fieldset>
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
+
+  <div class="footer_main"> </div>
+    <footer class="footer-distributed">
+     <div class="footer-left">
+      <h3>Project<span>NOU</span></h3>
+        <p class="footer-links">
+          <a href="../HTML/Acceuil">Acceuil</a>
+          ·
+          <a href="../HTML/Nous rejoindre">Nous Rejoindre</a>
+          ·
+          <a href="../HTML/Actualites">Actualités</a>
+          ·
+          <a href="../HTML/Galerie">Galerie</a>
+          ·
+          <a href="../HTML/Contact">Contact</a>
+        </p>
+        <p class="footer-company-name">ProjectNOU &copy; 2019</p>
+      </div>
+      <div class="footer-center">
+       <div>
+       <i class="fa fa-map-marker"></i>
+        <p><span>21 Unicorn Avn.</span> Narnia,Valhalla</p>
+       </div>
+       <div>
+          <i class="fa fa-phone"></i>
+          <p>+216 20157979</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:ghadabenmiled@yahoo.fr">contact@ProjectNOU.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+       <p class="footer-company-about">
+          <span>About the company</span>
+          NOU est un centre de formation équestre, fondé sur la relation Homme-cheval
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+                     
+               
+                   
+                    
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
